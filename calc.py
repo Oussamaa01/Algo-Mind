@@ -6,23 +6,23 @@ def main():
         print("value error")
         exit()
     try :
-        calc = int(input("""chose the number
-        1 = jam
-        2 = tar
-        3 = dar
-        4 = qis
-        5 = pui
+        calc = int(input("""chose the number or symbol
+        1 = addition (+)
+        2 = subtraction (-)
+        3 = multiplication (*)
+        4 = division (/)
+        5 = exponentiation (**)
         6 = all
         """))
-        if calc == 1 :
+        if calc == 1 or calc == "+":
             print(jam(number1 , number2))
-        elif calc == 2 :
+        elif calc == 2 or calc == "-":
             print(tar(number1 , number2))
-        elif calc == 3:
+        elif calc == 3 or calc == "*" :
             print(dar(number1, number2))
-        elif calc == 4:
+        elif calc == 4 or calc == "/":
             print(qis(number1, number2))
-        elif calc == 5 :
+        elif calc == 5 or "**":
             print(pui(number1 , number2))
         elif calc == 6 :
             print(str(jam(number1 , number2)) + "\n"+ str(tar(number1 , number2)) + "\n" + str(dar(number1, number2)) + "\n" + str(qis(number1, number2)) + "\n" + str(pui(number1 , number2)))
