@@ -6,7 +6,7 @@ def main():
         print("value error")
         exit()
     try :
-        calc = int(input("""chose the number or symbol
+        calc = int(input("""chose the number
         1 = addition (+)
         2 = subtraction (-)
         3 = multiplication (*)
@@ -14,15 +14,15 @@ def main():
         5 = exponentiation (**)
         6 = all
         """))
-        if calc == 1 or calc == "+":
+        if calc == 1 :
             print(jam(number1 , number2))
-        elif calc == 2 or calc == "-":
+        elif calc == 2:
             print(tar(number1 , number2))
-        elif calc == 3 or calc == "*" :
+        elif calc == 3 :
             print(dar(number1, number2))
-        elif calc == 4 or calc == "/":
+        elif calc == 4 :
             print(qis(number1, number2))
-        elif calc == 5 or "**":
+        elif calc == 5 :
             print(pui(number1 , number2))
         elif calc == 6 :
             print(str(jam(number1 , number2)) + "\n"+ str(tar(number1 , number2)) + "\n" + str(dar(number1, number2)) + "\n" + str(qis(number1, number2)) + "\n" + str(pui(number1 , number2)))
