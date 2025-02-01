@@ -16,7 +16,7 @@ def main():
         """))
         if calc == 1 :
             print(jam(number1 , number2))
-        elif calc == 2 :
+        elif calc == 2:
             print(tar(number1 , number2))
         elif calc == 3 :
             print(dar(number1, number2))
