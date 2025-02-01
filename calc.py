@@ -1,7 +1,9 @@
 #calculator
 def main():
+    print ("welcome to my calculator")
     try :
-        number1 = int(input("enter the number : ")) number2 = int(input("enter the other number : "))
+        number1 = int(input("enter the number : "))
+        number2 = int(input("enter the other number : "))
         
     except ValueError:
         print("value error")
