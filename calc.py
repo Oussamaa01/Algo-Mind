@@ -7,20 +7,20 @@ def main():
         exit()
     try :
         calc = int(input("""chose the number
-        1 = jam
-        2 = tar
-        3 = dar
-        4 = qis
-        5 = pui
+        1 = addition (+)
+        2 = subtraction (-)
+        3 = multiplication (*)
+        4 = division (/)
+        5 = exponentiation (**)
         6 = all
         """))
         if calc == 1 :
             print(jam(number1 , number2))
         elif calc == 2 :
             print(tar(number1 , number2))
-        elif calc == 3:
+        elif calc == 3 :
             print(dar(number1, number2))
-        elif calc == 4:
+        elif calc == 4 :
             print(qis(number1, number2))
         elif calc == 5 :
             print(pui(number1 , number2))
